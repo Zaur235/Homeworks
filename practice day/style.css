@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.cointaner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.5rem; */
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.right-header {
+  display: flex;
+  gap: 20px
+}
+
+nav ul li a {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+.right-header a {
+  color: black;
+}
+
+.right-header .update {
+  position: relative;
+}
+
+.right-header .update::before {
+  content: " 3 ";
+  position: absolute;
+  top: -12px;
+  right: -13px;
+  background-color: rgb(55, 55, 247);
+  color: white;
+  border-radius: 100%;
+  width: 18px;
+  text-align: center;
+}
+
+.button button {
+  width: 180px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: white;
+  border-radius: 40px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+
+main {
+  background: #051EFF;
+  background: linear-gradient(90deg, rgba(5, 30, 255, 0.722) 37%, rgba(250, 250, 255, 1) 0%);
+  ;
+  height: 95vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto {
+  width: 40%;
+  ;
+  margin-left: 200px;
+  padding-top: 100px;
+}
+
+.text {
+  border: 2px solid;
+  width: 60%;
+  height: 500px;
+  border: none;
+  margin-left: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.browse {
+  width: 180px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 255, 0.786);
+  border-radius: 40px;
+  margin-top: 30px;
+}
+
+.browse a {
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .right-header {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .button button {
+    display: none;
+  }
+
+  .mobile-menu{
+    display: block;
+    padding: 1rem 2rem;
+  }
+  .foto{
+    display: block;
+    padding: 1rem 2rem;
+  }
+  .main{display: block;
+    pa
+  }
+  .text {
+    display: block;
+    text-align: center;
+  }
+}
