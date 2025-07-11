@@ -28,9 +28,12 @@
 }
 
 header {
-  background-color: #363435;
+  /* background-color: #363435; */
+  background-image: url(https://w0.peakpx.com/wallpaper/812/311/HD-wallpaper-assorted-color-clothes.jpg);
   padding-top: 1rem;
   height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
@@ -50,7 +53,7 @@ header {
 }
 
 .left ul li a {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
 }
@@ -70,13 +73,14 @@ header {
 }
 
 .bottom h2 {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .bottom button {
   padding: 20px 45px;
   background-color: orange;
   border-radius: 10px;
+  border: 1px solid rgb(95, 64, 5);
 }
 
 .bottom button a {
@@ -171,11 +175,16 @@ footer {
   height: 200px;
   text-align: center;
   padding-top: 2rem;
-  border: none ;
-  
+  border: none;
+
 }
-.social i {font-size: 30px; padding-top: 20px; }
-.social  {
+
+.social i {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,11 +192,35 @@ footer {
   font-size: 30px;
 }
 
-.last {background-color: white;}
-.corporation{display: flex; justify-content: space-between; align-items: center;}
-.corporation img{;}
+.last {
+  background-color: white;
+}
 
-.first{display: flex; justify-content: space-between; align-items: center;}
-.tree{font-size: 30px; display: flex; gap: 1.5rem;}
-.tree a{color: black;}
-.last{background-color: #F8F9FA ; height: 160px;}
+.corporation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tree {
+  font-size: 30px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.tree a {
+  color: black;
+}
+
+.last {
+  background-color: #F8F9FA;
+  height: 160px;
+}
